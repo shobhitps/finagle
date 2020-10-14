@@ -758,7 +758,7 @@ lazy val finagleGrpcContext = Project(
     name := "finagle-grpc-context",
     libraryDependencies ++= Seq(
       util("core"),
-      "io.grpc" % "grpc-context" % "1.13.2"
+      "io.grpc" % "grpc-context" % "1.32.1"
     )
   )
 
